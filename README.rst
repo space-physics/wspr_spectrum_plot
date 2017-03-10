@@ -19,7 +19,7 @@ Here's what the dropouts look like in the time domain:
 
 .. image:: time.png
 
-The underlying theory of why this broadband hash happens on audio dropouts is analogous to key clicks.
+The underlying theory of why this `broadband hash happens on audio dropouts is analogous to key clicks <https://www.w8ji.com/what_causes_clicks.htm>`_.
 An infinitely fast on-off transition requires infinite bandwidth. 
 Here, the radio typically has about a 3 kHz audio filter that constrains the click bandwidth, and softens the on-off and off-on transitions necessarily.
 
