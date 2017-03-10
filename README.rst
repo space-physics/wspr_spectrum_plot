@@ -23,7 +23,9 @@ The underlying theory of why this broadband hash happens on audio dropouts is an
 An infinitely fast on-off transition requires infinite bandwidth. 
 Here, the radio typically has about a 3 kHz audio filter that constrains the click bandwidth, and softens the on-off and off-on transitions necessarily.
 
-With software defined radios, particularly those operated using Windows or where the transmit audio is sources remotely over the internet, dropouts will occasionally happen. 
+With software defined radios, particularly those operated using Windows or where the transmit audio is sourced remotely over the internet, dropouts will occasionally happen. 
+This was particularly an issue for FlexRadio 1500 using PowerSDR, it took iterative manual tuning to get things right. 
+The settings used for CW low-latency could be different for those used for digital and voice modes for the Flex 1500 with PowerSDR.
 If the dropouts are infrequent, the energy level is small despite large bandwidth. 
 As the dropout frequency increases, the transmitted signal suffers (due to missed bits) and the interference energy rises as well.
 
