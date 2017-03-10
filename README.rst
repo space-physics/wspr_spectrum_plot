@@ -9,13 +9,13 @@ Assumes you or a friend has the `.wav files saved by WSPR Save>Save All <https:/
 
 .. image:: glitch_spectrum.png
 
-Glitches in spectrum (broadband hash) caused by dropouts on a UDP link. 
-Interference is about -25 dB down by edge of WSPR.
+*Glitches in spectrum (broadband hash) caused by dropouts on a UDP link.* 
+
+Interference is about -25 dB down by edge of the WSPR sub-band.
 That means if you're transmitting with 1 Watt (30 dBm) than the WSPR band gets pulses of hash with several milliwatts of power.
+Correspondingly, if one was transmitting with 100 Watts (50dBm), the WSPR band is getting intermittent splashes of 1 Watt of power.
 
-Correspondingly, if one was transmitting with 100 Watt (50dBm), the WSPR band is getting intermittent splashes of 1 Watt of power.
-
-Here's what the dropouts looks like in the time domain:
+Here's what the dropouts look like in the time domain:
 
 .. image:: time.png
 
