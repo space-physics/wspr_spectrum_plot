@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 from setuptools import setup
 
-req = ['nose','numpy','scipy','matplotlib','seaborn','python-dateutil','pytz',
+req = ['numpy','scipy','matplotlib','seaborn','python-dateutil','pytz',
        'sciencedates']
 
 #%% install
@@ -14,7 +14,7 @@ setup(name='wspr_spectrum_plot',
       'Development Status :: 3 - Alpha',
       'License :: OSI Approved :: MIT License',
       'Topic :: Scientific/Engineering :: Atmospheric Science',
-      'Programming Language :: Python :: 3.6',
+      'Programming Language :: Python :: 3',
       ],
       install_requires=req,
 	  )
